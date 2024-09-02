@@ -1,6 +1,6 @@
 # Jeu de Tic Tac Toe
 
-![Capture d'écran du jeu](image/Domain names-bro.png)
+![Capture d'écran du jeu](image/img.png)
 
 ## Description
 
