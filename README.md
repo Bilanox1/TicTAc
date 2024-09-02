@@ -1,10 +1,18 @@
 # Jeu de Tic Tac Toe
 
-![Capture d'écran du jeu](image/img.png)
+## Capture d'écran
+
+### Page d'accueil
+
+<img src="image/page-home.png" alt="Page d'accueil" width="500">
+
+### Page de jeu
+
+<img src="image/page-game.png" alt="Page de jeu" width="500">
 
 ## Description
 
-Un jeu de Tic Tac Toe en ligne développé avec Express.js et WebSockets, permettant des parties en temps réel. Le site comporte quatre pages principales : Accueil, Jeu, Connexion, et Inscription.
+Un jeu de Tic Tac Toe en ligne développé avec **Express.js** et **WebSockets**, permettant des parties en temps réel. Le site comporte quatre pages principales : Accueil, Jeu, Connexion, et Inscription.
 
 ## Fonctionnalités
 
@@ -14,9 +22,20 @@ Un jeu de Tic Tac Toe en ligne développé avec Express.js et WebSockets, permet
 
 ## Technologies utilisées
 
-- **Express.js**
-- **WebSockets**
-- **HTML, CSS, JavaScript**
+- ![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)  
+  Utilisé pour créer le backend de l'application et gérer les requêtes HTTP.
+
+- ![WebSockets](https://img.shields.io/badge/WebSockets-00bfff?style=for-the-badge&logo=websockets&logoColor=white)  
+  Permet la communication en temps réel entre les joueurs.
+
+- ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)  
+  Structure des pages web.
+
+- ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)  
+  Stylise les pages web pour une meilleure interface utilisateur.
+
+- ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)  
+  Ajoute de l'interactivité aux pages web et gère la logique de jeu.
 
 ## Installation
 
