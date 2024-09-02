@@ -93,12 +93,10 @@
       id="notification"
       class="fixed top-10 z-40 right-4 max-w-xs w-[200px] flex flex-col gap-3"
     >
-      <!-- First Notification -->
     </div>
 
     <main class="flex-1 flex flex-col md:flex-row relative">
       <div class="container mx-auto flex py-4 space-x-4">
-        <!-- Button to toggle Sidebar in mobile view -->
         <button
           id="toggleSidebar"
           class="md:hidden rounded flex justify-center items-center bg-blue-500 text-white p-2 h-[30px] w-[30px] hover:bg-blue-600 transition ease-in-out fixed top-12 left-0 z-50"
@@ -107,8 +105,6 @@
             class="fa-solid fa-bars text-xl xd:hidden cursor-pointer transition-transform duration-300"
           ></i>
         </button>
-
-        <!-- Sidebar -->
         <aside
           id="sidebar"
           class="fixed inset-y-0 left-[-20px] transform -translate-x-full md:translate-x-0 md:relative md:translate-x-0 transition-transform duration-300 ease-in-out w-64 bg-white shadow-md p-4 rounded-lg z-40"
@@ -120,15 +116,11 @@
             class="space-y-3 xd:max-h-[50vh] xs:h-[100vh] overflow-y-auto"
             id="onlineUsersList"
           >
-            <!-- Liste des utilisateurs -->
-
-            <!-- Répétez pour les autres utilisateurs -->
           </ul>
         </aside>
 
-        <!-- Main Content -->
         <div class="flex-1 bg-gray-100 xd:p-6 xs:p-2 rounded-lg shadow-md">
-          <!-- Form for Challenge Creation -->
+
           <div
             class="bg-white xd:p-6 xs:p-2 rounded-lg shadow-lg w-full mx-auto"
           >
@@ -220,7 +212,7 @@
           class="joures bg-white p-4 rounded-lg shadow-md max-w-xs mx-auto sm:max-w-sm"
         >
           <div class="flex items-center justify-between gap-3">
-            <!-- Player 1 -->
+
             <div class="flex gap-3 items-center">
               <img
                 src="https://via.placeholder.com/40"
@@ -228,9 +220,9 @@
                 class="w-12 h-12 rounded-full border border-blue-500 mb-1"
               />
               <h3>X</h3>
-              <span class="text-sm font-medium text-blue-700">0</span>
+              <span class="text-sm font-medium text-blue-700" id="score-x"></span>
             </div>
-            <!-- Player 2 -->
+
             <div class="flex gap-3 items-center">
               <img
                 src="https://via.placeholder.com/40"
@@ -238,7 +230,7 @@
                 class="w-12 h-12 rounded-full border border-blue-500 mb-1"
               />
               <h3>O</h3>
-              <span class="text-sm font-medium text-blue-700">0</span>
+              <span class="text-sm font-medium text-blue-700" id="score-o"> </span>
             </div>
           </div>
         </div>
@@ -246,12 +238,12 @@
         <div id="game-board"></div>
       </div>
 
-      <div id="scoreboard">
+      <!-- <div id="scoreboard">
         <p>
           Score : Joueur X - <span id="score-x">0</span> | Joueur O -
           <span id="score-o">0</span>
         </p>
-      </div>
+      </div> -->
     </div>
 
     <footer class="bg-sky-900 text-white py-4 shadow-inner">
